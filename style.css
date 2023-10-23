@@ -107,3 +107,22 @@ body {
 .header-text-anchor-get-started:hover .header-text-get-started {
     color: darkgray;
 }
+
+.main-body {
+    display: flex;
+    justify-content: center;
+}
+.main-body-h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    color: darkcyan;
+}
+.phone {
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: 490px;
+    transform: rotate(20deg);
+}
