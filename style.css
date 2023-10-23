@@ -119,10 +119,17 @@ body {
     left: 350px;
     color: darkcyan;
 }
+.main-body-h2 {
+    font-size: 20px;
+    position: absolute;
+    top: 470px;
+    left: 350px;
+    color: rgb(4, 77, 77);
+}
 .phone {
     height: 300px;
     position: absolute;
     top: 250px;
-    left: 490px;
+    left: 520px;
     transform: rotate(20deg);
 }
