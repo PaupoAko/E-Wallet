@@ -56,6 +56,9 @@ html{
     color: white;
 }
 
+.get-started {
+    margin-left: 250px;
+}
 .header-text-anchor-get-started {
     text-decoration: none;
     display: flex;
