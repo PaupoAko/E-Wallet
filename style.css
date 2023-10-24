@@ -24,7 +24,7 @@ body {
 
 .header-cus-bus {
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .get-started {
@@ -130,6 +130,6 @@ body {
     height: 300px;
     position: absolute;
     top: 250px;
-    left: 520px;
+    left: 550px;
     transform: rotate(20deg);
 }
