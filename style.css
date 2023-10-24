@@ -16,6 +16,57 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     background: white;
     margin: 0px;
+    height: 55px;
+
+    transition: all 0.3s ease-in;
+}
+.header.hide-transition {
+    display: none;
+}
+.header.show-transition {
+    display: flex;
+}
+
+.services-pop-up {
+    display: none;
+    position: absolute;
+    top: 50px;
+    height: 180px;
+    background: white;
+    left: 0;
+    right: 0;
+}
+.services-header {
+    display: flex;
+    position: absolute;
+    left: 288px;
+    top: 20px;
+}
+.services-header-anchor {
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    padding: 0;
+}
+.services-header-text {
+    font-size: 18px;
+    color: skyblue;
+    display: block;
+}
+.services-header-anchor:hover {
+    cursor: pointer;
+}
+.services-header-anchor:hover:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border: solid 2px skyblue;
+    animation: border-anim 0.3s ease-in forwards;
 }
 
 .logo {
@@ -82,7 +133,6 @@ body {
     width: 80px;
     padding: 0;
     font-size: 20px;
-
 }
 .header-text-anchor-get-started:hover:before {
     content: '';
